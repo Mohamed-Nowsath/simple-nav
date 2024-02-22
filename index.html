@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Courier New', Courier, monospace;
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 10%;
+            background-color: darkgrey;
+           
+
+        }
+        .logo{
+            cursor: pointer;
+            color: aliceblue;
+            font-weight: 400px;
+            order: 3;
+        }
+        .nav-link{
+            display: flex;
+           list-style: none;
+        }
+        .nav-link li{
+            padding: 0 20px;
+        }
+        .nav-link li a{
+            text-decoration: none;
+            color: azure;
+            transform: 0.6s;
+
+        }
+        .nav-link li a:hover{
+            color: aqua;
+        }
+        button{
+            padding: 9px 25px;
+            background-color: chartreuse;
+            border: none;
+            color: azure;
+            border-radius: 20px;
+           
+        }
+        button:hover{
+            background-color: rgb(30, 210, 99);
+            opacity: 0.3;
+            transform: 0.6s;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2 class="logo"> Nowsath</h2>
+       <nav>
+           <ul class="nav-link">
+              <li><a href="#1">Home</a></li>
+              <li><a href="#2">Contact</a></li>
+              <li><a href="#3">Address</a></li>
+              <li><a href="#4">About</a></li>
+           </ul>
+       </nav>
+        <button>Contact Us</button>
+    </header>
+    
+</body>
+</html>
